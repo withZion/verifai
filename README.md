@@ -1,4 +1,4 @@
-# sourced
+# verifai
 
 Values that carry their own evidence. Wrap any fact your code relies on in
 `Sourced[T]`: the value, where it came from, a verbatim quote, and how far it
@@ -11,7 +11,7 @@ language model to talk about.
 
 ```python
 from datetime import date
-from sourced import Sourced, DataStatus, seed, unknown
+from verifai import Sourced, DataStatus, seed, unknown
 
 price = Sourced(
     value=4.50,
@@ -72,7 +72,7 @@ doing the work.
 ## Install and test
 
 ```
-pip install git+https://github.com/withZion/sourced
+pip install git+https://github.com/withZion/verifai
 pip install -e .[dev] && pytest
 ```
 

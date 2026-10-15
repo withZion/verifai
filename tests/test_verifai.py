@@ -3,7 +3,7 @@ from datetime import date
 import pytest
 from pydantic import BaseModel
 
-from sourced import (DataStatus, Sourced, Unverified, assess, confidence_of, seed, to_json,
+from verifai import (DataStatus, Sourced, Unverified, assess, confidence_of, seed, to_json,
                      unknown, value_of, walk)
 
 TODAY = date(2026, 3, 1)

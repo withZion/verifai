@@ -1,4 +1,4 @@
-"""sourced: values that carry their own evidence.
+"""verifai: values that carry their own evidence.
 
 Wrap any fact your system relies on in `Sourced[T]`: the value, where it
 came from, a verbatim quote, and how far it has been checked. Then code that

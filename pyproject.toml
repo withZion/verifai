@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sourced"
+name = "verifai"
 version = "0.1.0"
 description = "Values that carry their own evidence: provenance, verification status and freshness for any fact your code relies on. Built on pydantic."
 readme = "README.md"
@@ -17,4 +17,4 @@ keywords = ["provenance", "pydantic", "data-quality", "llm", "grounding"]
 dev = ["pytest>=8"]
 
 [tool.setuptools.packages.find]
-include = ["sourced*"]
+include = ["verifai*"]
